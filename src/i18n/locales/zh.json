@@ -1031,6 +1031,7 @@
     "brandVersion": "品牌版本",
     "proFeature": "这是 Pro 功能",
     "generateFingerprint": "生成指纹",
+    "apifyGeneratedSuccess": "Apify fingerprint generated!",
     "refreshFingerprint": "刷新指纹",
     "canvasNoiseSeedPlaceholder": "输入用于 canvas 指纹的种子字符串",
     "addFontsPlaceholder": "添加字体...",

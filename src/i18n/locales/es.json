@@ -1031,6 +1031,7 @@
     "brandVersion": "Versión de marca",
     "proFeature": "Esta es una función Pro",
     "generateFingerprint": "Generar Huella Digital",
+    "apifyGeneratedSuccess": "Apify fingerprint generated!",
     "refreshFingerprint": "Actualizar Huella Digital",
     "canvasNoiseSeedPlaceholder": "Introduce una semilla para la huella digital del canvas",
     "addFontsPlaceholder": "Agregar fuentes...",

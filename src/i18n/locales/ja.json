@@ -1031,6 +1031,7 @@
     "brandVersion": "ブランドバージョン",
     "proFeature": "これはPro機能です",
     "generateFingerprint": "フィンガープリントを生成",
+    "apifyGeneratedSuccess": "Apify fingerprint generated!",
     "refreshFingerprint": "フィンガープリントを更新",
     "canvasNoiseSeedPlaceholder": "キャンバスフィンガープリント用のシード文字列を入力",
     "addFontsPlaceholder": "フォントを追加...",

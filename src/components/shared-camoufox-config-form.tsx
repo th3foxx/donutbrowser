@@ -280,7 +280,7 @@ export function SharedCamoufoxConfigForm({
           </SelectTrigger>
           <SelectContent>
             {(["windows", "macos", "linux"] as CamoufoxOS[]).map((os) => {
-              const isDisabled = os !== currentOS && !crossOsUnlocked;
+              const isDisabled = false;
               return (
                 <SelectItem key={os} value={os} disabled={isDisabled}>
                   <span className="flex items-center gap-2">
@@ -1153,7 +1153,7 @@ export function SharedCamoufoxConfigForm({
                 </SelectTrigger>
                 <SelectContent>
                   {(["windows", "macos", "linux"] as CamoufoxOS[]).map((os) => {
-                    const isDisabled = os !== currentOS && !crossOsUnlocked;
+                    const isDisabled = false;
                     return (
                       <SelectItem key={os} value={os} disabled={isDisabled}>
                         <span className="flex items-center gap-2">

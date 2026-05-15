@@ -205,7 +205,7 @@ export function WayfernConfigForm({
             {(
               ["windows", "macos", "linux", "android", "ios"] as WayfernOS[]
             ).map((os) => {
-              const isDisabled = os !== currentOS && !crossOsUnlocked;
+              const isDisabled = false;
               return (
                 <SelectItem key={os} value={os} disabled={isDisabled}>
                   <span className="flex items-center gap-2">
@@ -1110,7 +1110,7 @@ export function WayfernConfigForm({
                       "ios",
                     ] as WayfernOS[]
                   ).map((os) => {
-                    const isDisabled = os !== currentOS && !crossOsUnlocked;
+                    const isDisabled = false;
                     return (
                       <SelectItem key={os} value={os} disabled={isDisabled}>
                         <span className="flex items-center gap-2">

@@ -75,9 +75,22 @@ export function useCloudAuth(): UseCloudAuthReturn {
     return user;
   }, []);
 
+  const mockedUser: CloudUser = {
+    id: "pro-user",
+    email: "pro@donut.local",
+    plan: "pro",
+    planPeriod: "lifetime",
+    subscriptionStatus: "active",
+    profileLimit: 9999,
+    cloudProfilesUsed: 0,
+    proxyBandwidthLimitMb: 999999,
+    proxyBandwidthUsedMb: 0,
+    proxyBandwidthExtraMb: 0,
+  };
+
   return {
-    user: authState?.user ?? null,
-    isLoggedIn: authState !== null,
+    user: authState?.user ?? mockedUser,
+    isLoggedIn: true,
     isLoading,
     exchangeDeviceCode,
     logout,

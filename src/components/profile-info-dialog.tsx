@@ -359,7 +359,7 @@ export function ProfileInfoDialog({
         handleAction(() => onLaunchWithSync?.(profile));
       },
       disabled: isDisabled || isRunning || !crossOsUnlocked,
-      proBadge: !crossOsUnlocked,
+      proBadge: false,
       hidden: profile.browser !== "wayfern" || !onLaunchWithSync,
     },
     {

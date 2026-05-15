@@ -1031,6 +1031,7 @@
     "brandVersion": "Versão da Marca",
     "proFeature": "Este é um recurso Pro",
     "generateFingerprint": "Gerar Impressão Digital",
+    "apifyGeneratedSuccess": "Apify fingerprint generated!",
     "refreshFingerprint": "Atualizar Impressão Digital",
     "canvasNoiseSeedPlaceholder": "Insira uma string seed para a impressão digital do canvas",
     "addFontsPlaceholder": "Adicionar fontes...",

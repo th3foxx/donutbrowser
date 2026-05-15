@@ -1031,6 +1031,7 @@
     "brandVersion": "Версия бренда",
     "proFeature": "Это функция Pro",
     "generateFingerprint": "Сгенерировать отпечаток",
+    "apifyGeneratedSuccess": "Отпечаток Apify успешно сгенерирован!",
     "refreshFingerprint": "Обновить отпечаток",
     "canvasNoiseSeedPlaceholder": "Введите строку-семя для отпечатка canvas",
     "addFontsPlaceholder": "Добавить шрифты...",

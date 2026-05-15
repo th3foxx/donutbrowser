@@ -1031,6 +1031,7 @@
     "brandVersion": "Version de la marque",
     "proFeature": "Ceci est une fonctionnalité Pro",
     "generateFingerprint": "Générer l'empreinte",
+    "apifyGeneratedSuccess": "Apify fingerprint generated!",
     "refreshFingerprint": "Actualiser l'empreinte",
     "canvasNoiseSeedPlaceholder": "Entrez une graine pour l'empreinte canvas",
     "addFontsPlaceholder": "Ajouter des polices...",
